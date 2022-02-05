@@ -1,0 +1,41 @@
+body {
+  font-size: 16px;
+  color: black;
+  background-color: white;
+  font-family: 'Oxygen', sans-serif;
+  overflow: auto;
+}
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 0.5;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: darkblue;
+  background-color: lightblue;
+ }
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+
+div .main-tile {
+  min-height: 1000px;
+  background-color: lightgray;
+  margin: 20px;
+  width: auto;
+}
